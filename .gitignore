@@ -1,0 +1,51 @@
+# =============================================================================
+# Agentic GameDev Pipeline — .gitignore
+# =============================================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+.venv/
+venv/
+*.so
+
+# LLM model weights
+models/
+*.gguf
+*.onnx
+
+# Output data
+data/
+logs/
+*.log
+
+# Cocos build artifacts
+build/
+**/build/**
+temp/
+**/temp/**
+library/
+**/library/**
+local/
+**/local/**
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+
+# Environment
+.env
+.env.local
